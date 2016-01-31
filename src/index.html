@@ -6,11 +6,8 @@
   <base href=".">
   <script src="vendor/angular2/bundles/angular2-polyfills.js"></script>
   {{content-for 'head'}}
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <ng2-training-app>Loading...</ng2-training-app>
-
   <script src="vendor/systemjs/dist/system.src.js"></script>
   <script src="vendor/rxjs/bundles/Rx.js"></script>
   <script src="vendor/angular2/bundles/angular2.dev.js"></script>
@@ -25,7 +22,7 @@
         }
       }
     });
-    System.import('app.js').then(null, console.error.bind(console));
+    // System.import('app.js');
   </script>
 </body>
 </html>
