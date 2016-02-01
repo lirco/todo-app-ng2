@@ -1,0 +1,40 @@
+hello world
+add input component
+show #ref syntax for getting value
+show show (click) syntax
+demonstrate (contextmenu) and $event
+show @Output for adding item
+move to (submit)
+show move to [value]/(change)
+show move to [ngModel]/(ngModelChange)
+show move to [(ngModel)]
+add list component with *ngFor
+show @Input for passing todos in
+move to service, first in list, then in input
+
+explain @Inject() for none-typescript and values
+add todo item dto with completed
+show [hidden] binding for completed
+move to [ngClass] with color
+show view encapsulation for color/bgColor
+add toggle on click
+add pipe that filters completed/pending
+show immutability issue, both for add & toggle
+add router-outlet for view/edit modes
+add router-link and show they use same model
+show model split using nested injectors
+show location strategy override
+show ngModel classes for controls
+show ref to control using #name="ngForm"
+show that initial todos can be downloaded using fetch (explain zones)
+move to http, explain about observables
+new Control, [ngFormControl]
+
+form controls, custom validators
+reactive programming
+animations
+creating directives (attribute vs structure)
+require controller
+ngContent (aka transclusion)
+server side rendering
+native app rendering
